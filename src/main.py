@@ -1,11 +1,12 @@
-import sys
+from dataset import Dataset
 import numpy as np
 import torch
 import torchvision
 
-class main(): 
+class Main(): 
     def __init__(self) -> None:
         print("initiated main")
+        Dataset()
     
-main()
+Main()
 
