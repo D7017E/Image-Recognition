@@ -1,6 +1,11 @@
 import sys
-import numpy
+import numpy as np
 import torch
 import torchvision
-print("")
-print(sys.path)
+
+class main(): 
+    def __init__(self) -> None:
+        print("initiated main")
+    
+main()
+
