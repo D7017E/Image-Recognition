@@ -1,6 +1,12 @@
-import sys
-import numpy
+from dataset import Dataset
+import numpy as np
 import torch
 import torchvision
-print("")
-print(sys.path)
+
+class Main(): 
+    def __init__(self) -> None:
+        print("initiated main")
+        Dataset()
+    
+Main()
+

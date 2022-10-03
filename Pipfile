@@ -8,6 +8,8 @@ requests = "*"
 torch = "*"
 torchvision = "*"
 numpy = "*"
+tensorflow = "*"
+tensorflow-datasets = "*"
 
 [dev-packages]
 
