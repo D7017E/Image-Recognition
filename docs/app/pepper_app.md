@@ -4,4 +4,4 @@
 Refer to our [Documentation Repository](https://github.com/D7017E/Documentation).
 
 ## Pepper service application
-To setup a service on pepper there are examples here: [Python and C++ application](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/creating-application/creating-new-application-outside).
+To setup a service on pepper there are examples here: [Python and C++ application](https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/creating-application/creating-new-application-outside). The site may be temporarily down try [Way Back Machine](https://web.archive.org/web/20211017231043/https://developer.softbankrobotics.com/pepper-naoqi-25/naoqi-developer-guide/creating-application/creating-new-application-outside).
