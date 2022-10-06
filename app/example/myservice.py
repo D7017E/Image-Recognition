@@ -1,8 +1,8 @@
 import qi
 import helper
-import rps_lib
+import mylib
 
-class RPS:
+class MyService:
 
     def echo(self, message):
         return message
@@ -14,8 +14,8 @@ def main():
     app = qi.Application()
     app.start()
     session = app.session
-    my_service = RPS()
-    session.registerService("RPS", my_service)
+    myService = MyService()
+    session.registerService("MyService", myService)
     app.run()
 
 if __name__ == "__main__":
