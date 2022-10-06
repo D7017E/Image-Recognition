@@ -1,6 +1,6 @@
 import qi
 import helper
-import mylib
+import rps_lib
 
 class RPS:
 

@@ -1,0 +1,10 @@
+<package uuid="rps" version="0.1.0">
+  <services>
+
+    <service name="rps" autorun="true" execStart="./python bin/app.py" />
+    <executableFiles>
+      <file path="python" />
+    </executableFiles>
+  </services>
+
+</package>
