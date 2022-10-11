@@ -10,6 +10,8 @@ torchvision = "*"
 numpy = "*"
 tensorflow = "*"
 tensorflow-datasets = "*"
+opencv-python = "*"
+mediapipe = "*"
 
 [dev-packages]
 pylint = "*"
