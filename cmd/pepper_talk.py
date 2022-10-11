@@ -4,6 +4,7 @@ from naoqi import ALProxy
 # https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 
 def main(argv):
+    
     message = 'Hello World!'
     try: 
         opts, args = getopt.getopt(argv, "m:")
