@@ -25,5 +25,4 @@ def main(argv):
     tts.say(message)
 
 if __name__ == "__main__": 
-    print(sys.argv)
     main(sys.argv[1:])
