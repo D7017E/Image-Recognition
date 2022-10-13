@@ -1,1 +1,2 @@
-python -m pipenv run pylint src/
+pipenv install --dev 
+pipenv run pylint src/
