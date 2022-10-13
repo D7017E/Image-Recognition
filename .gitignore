@@ -3,3 +3,4 @@ dataset
 tmp
 !docs/dataset
 tests and examples/*.h5
+tests and examples/RPS_modelV2.h5
