@@ -13,7 +13,6 @@ def main(argv):
         sys.exit(2)
     
     if len(opts) >= 1:
-        print(opts)
         message = ''
         opt, arg = opts[0] 
         if opt in ("-m", "--message"):
