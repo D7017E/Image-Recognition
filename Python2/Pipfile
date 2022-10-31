@@ -4,6 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+<<<<<<< HEAD:Python2/Pipfile
+=======
+requests = "*"
+torch = "*"
+torchvision = "*"
+numpy = "*"
+tensorflow = "*"
+tensorflow-datasets = "*"
+opencv-python = "*"
+mediapipe = "*"
+>>>>>>> main:Pipfile
 
 [dev-packages]
 pylint = "*"
