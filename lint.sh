@@ -1,1 +1,0 @@
-python -m pipenv run pylint src/
