@@ -21,16 +21,14 @@ def plotRes(file_name):
     y_axis = [] 
     size_var = []
     for i in resData:
-        x_axis.append(i[0])
-        y_axis.append(i[1])
-        size_var.append(i[2])
+        x_axis.append(np.float64(i[0]))
+        y_axis.append(np.float64(i[1]))
+        size_var.append(np.float64(i[2]))
     
     x_array = np.asarray(x_axis)
     y_array = np.asarray(y_axis)
-    size_array = np.asarray(size_var, dtype=np.ndarray)
-    print(x_array)
-    print(y_array)
-    print(size_array)
+    size_array = np.asarray(size_var)
+
     print("\n x_array is", type(x_array), "\n y_array is", type(y_array), "\n size_array is", type(size_array))
 
     print("\n size of x_array is", x_array.size, "\n size of y_array is", y_array.size, "\n size of size_var is", size_array.size)
