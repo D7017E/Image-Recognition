@@ -1,6 +1,9 @@
 # Setup GPU cluster
 
 ## Linux
+A full guide if setup can be found [here](https://blog.ltu-ai.dev/python-setup-for-kubernetes-using-linux-gpu-enabled/).
+
+TODO
 
 ## Windows
 A full guide if setup can be found [here](https://blog.ltu-ai.dev/python-setup-for-kubernetes-using-windows/).
@@ -36,4 +39,36 @@ After installing docker go to Docker settings and enable Kubernetes. Click on Ap
 Run the following command in Powershell to check it is installed or not.
 > kubectl
 
+### 3. Helm on Windows.
+"sumrak" is a example of a username for the following:
+
+- [Download](https://github.com/helm/helm/releases) the zip file for helm: Windows amd64
+
+- Download and extract the folder “windows-amd64” and place it C:\Users\sumrak\docker
+
+- Set the environment variable:
+  - Press Windows key + R: type “SystemPropertiesAdvanced.exe”
+
+  - Click environment variables: Under System variables, select Path, and then select Edit.
+
+  - Select the New button and then add the folder path “C:\Users\sumrak\docker\windows-amd64” where you copied the helm folder to and then press OK.
+
+Go to PowerShell and verify that helm is setup.
+> helm
+
+### 4. Install Required Visual Studio Extensions
+Install the following extensions in vscode: 
+- Docker
+- Kubernetes
+- Remote - Container
+- Remote - SSH 
+- Remote – SSH: Editing Configuration Files
+- WSL
+- Remote Development
+- YAML
+- Pylance
+- Python
+- Jupyter
+- Jupyter Keymap
+- Jupyter Notebook Renderers
 
