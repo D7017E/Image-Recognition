@@ -1,11 +1,11 @@
 # Setup GPU cluster
 
-## Linux
+## Local Install Linux
 A full guide if setup can be found [here](https://blog.ltu-ai.dev/python-setup-for-kubernetes-using-linux-gpu-enabled/).
 
 TODO
 
-## Windows
+## Local Install Windows
 A full guide if setup can be found [here](https://blog.ltu-ai.dev/python-setup-for-kubernetes-using-windows/).
 
 ### 1. Requirement and Installation of Docker Desktop.
