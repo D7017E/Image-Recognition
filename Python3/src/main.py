@@ -6,4 +6,5 @@ class Main():
         print("initiated main")
         Dataset()
 
-Main()
+if __name__ == "__main__": 
+    Main()
