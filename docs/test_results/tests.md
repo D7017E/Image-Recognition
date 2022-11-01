@@ -1,0 +1,2 @@
+# Test results
+For each test variable create a subfolder with a corresponding csv-file and main-file. The csv-file should contain columns for the relevant testing variables and the main file should be capable of printing out the results.
