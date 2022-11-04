@@ -1,4 +1,7 @@
 # Datasets not to be commited. 
 dataset
 !docs/dataset
+
 *.lock
+
+network_prototypes/saved_models/*
