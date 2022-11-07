@@ -6,6 +6,7 @@ mp_hands = mp.solutions.hands
 
 # For static images:
 IMAGE_FILES = []
+IMAGE_FILES.append("/home/anders/Documents/courses/D7017E - Project In Computer Science/project repo/Image-Recognition/research/images/2022-11-07-145744.jpg")
 with mp_hands.Hands(
     static_image_mode=True,
     max_num_hands=2,
