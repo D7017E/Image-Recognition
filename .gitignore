@@ -2,3 +2,4 @@
 dataset
 !docs/dataset
 *.lock
+.env
