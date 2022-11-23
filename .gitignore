@@ -3,6 +3,7 @@ dataset
 !docs/dataset
 
 *.lock
+.env
 
 # Ignore saved models
 network_prototypes/saved_models/*
