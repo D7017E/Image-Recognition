@@ -7,7 +7,7 @@ do
         m)  
             message="${OPTARG}"
             echo "Telling Pepper to say: ${message}"
-            python2 ./cmd/pepper_talk.py -m $message
+            python2 ./pepper_talk.py -m $message
             ;;
     esac
 done

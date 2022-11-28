@@ -1,2 +1,3 @@
 # Image-Recognition
-Image recognition for Pepper
+Image recognition for Pepper. 
+
