@@ -1,5 +1,13 @@
 # Datasets not to be commited. 
 dataset
 !docs/dataset
+
 *.lock
 .env
+
+# Ignore saved models
+network_prototypes/saved_models/*
+
+# Ignore model and result in background test
+examples/background_switch/new_img.jpg
+examples/background_switch/xception_pascalvoc.pb
