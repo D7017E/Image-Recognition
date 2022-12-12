@@ -13,7 +13,7 @@
 - **Test result**: Utilized to evaluate models. 
 
 ## Tensorflow CNN
-We decided not to utilize our own CNN model since our dataset was not large enough. We did utilize a pre-made dataset provided by tensorflow since the hands was not towards the camera at an angle similar to Pepper angle. Another likely issue with tensorflow dataset was the background which was completely white, which was something we attempted to solve by insertion of backgrounds or removal of them. Our tensorflow CNN turned out to not be a viable solution even when we attempted to create our own dataset to be used instead. 
+We decided not to utilize our own CNN model since our dataset was not large enough. We did utilize a pre-made dataset provided by tensorflow since the hands was not towards the camera at an angle similar to Pepper angle. Another likely issue with tensorflow dataset was the background which was completely white, which was something we attempted to solve by insertion of backgrounds or removal of them. Our tensorflow CNN turned out to not be a viable solution for our time frame even when we attempted to create our own dataset to be used instead. 
 
 
 
